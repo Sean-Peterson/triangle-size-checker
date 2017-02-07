@@ -2,9 +2,9 @@
 
     class Triangle
     {
-        private $left;
-        private $right;
-        private $bottom;
+        public $left;
+        public $right;
+        public $bottom;
 
         function __construct($left_side, $right_side, $bottom_side)
         {
@@ -30,6 +30,11 @@
 
 
     }
+    // $side_left = $_GET["left"];
+    // $side_right = $_GET["right"];
+    // $side_bottom = $_GET["bottom"];
+    // $user_triangle = new Triangle($side_left, $side_right, $side_bottom);
+
     //
     // $first = new Triangle(3,3,3);
     // $second = new Triangle(3,3,5);
